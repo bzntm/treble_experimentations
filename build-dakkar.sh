@@ -40,29 +40,25 @@ ROM types:
   aex-12L
   aicp-oreo
   aokp-oreo
-  aosmp-pie
   aosp80
   aosp81
   aosp90
   aosp10
-  aquarios
+  aosp17
   carbon-13
-  crdroid-oreo
-  e-pie
-  e-oreo
-  havoc-pie
-  komodo-pie
-  lineage151
-  lineage160
-  mokee-oreo
+  crdroid-17
+  e-17
+  havoc-13
+  komodo-15
+  lineage240
+  mokee-q
   pixel81
   pixel90
-  potato-pie
+  potato-14
   rebellion-pie
-  rr-oreo
-  slim-oreo
-  graphene9
-  graphene10
+  rr-10
+  slim-q
+  graphene17
 
 Variants are dash-joined combinations of (in order):
 * processor type
@@ -156,10 +152,10 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="false"
                 ;;
-            rr-oreo)
+            rr-10)
                 mainrepo="https://github.com/ResurrectionRemix/platform_manifest.git"
-                mainbranch="oreo"
-                localManifestBranch="android-8.1"
+                mainbranch="Q"
+                localManifestBranch="android-10.0"
                 treble_generate="rr"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"
